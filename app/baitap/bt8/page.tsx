@@ -1,11 +1,13 @@
+import Footer from '@/app/Footer'
+import Header from '@/app/Header'
 import React from 'react'
-import Header from './Header'
 
 export default function page() {
   return (
     <div>
-      123
       <Header></Header>
+      Trang chủ
+      <Footer></Footer>
     </div>
   )
 }
